@@ -1,0 +1,23 @@
+We want make a package of goal kilos of chocolate. We have small bars (1 kilo each) and big bars (5 kilos each). Return the number of small bars to use, assuming we always use big bars before small bars. Return -1 if it can't be done.
+
+makeChocolate(4, 1, 9) → 4
+makeChocolate(4, 1, 10) → -1
+makeChocolate(4, 1, 7) → 2
+
+The example makeChocolate(4, 1, 9):
+
+You have 4 small bars and 1 big bar, and you want to reach a weight of 9 kilos.
+
+Big bars usage:
+
+You can use 1 big bar (since 5 kilos) without exceeding the goal.
+
+Remaining weight:
+
+You’ve used 5 kilos, so you still need 9 - 5 = 4 kilos.
+
+Small bars check:
+
+You have 4 small bars available, which is exactly what you need.
+
+Result: Return 4 because that’s how many small bars you’ll use.
