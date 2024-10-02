@@ -29,8 +29,8 @@ public class SumWithTeenRule {
        return n;
     }
 
-    public static int noTeenSum(int num1, int num2, int num3) {
-        return fixTeen(num1)+fixTeen(num2)+fixTeen(num3);
+    public static int noTeenSum(int a, int b, int c) {
+        return fixTeen(a)+fixTeen(b)+fixTeen(c);
     }
 
 }
